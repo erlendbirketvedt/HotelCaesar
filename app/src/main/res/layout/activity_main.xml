@@ -1,46 +1,16 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical" >
+    tools:context="hulitax.no.hotelcaesar.MainActivity">
 
-    <TextView
-    android:id="@+id/check_in"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:padding="24dp"
-        android:text="@string/checkin_guest" />
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/check_in_resnr_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/checkin_resnr" />
-
-        <Button
-            android:id="@+id/check_in_ccnr_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/checkin_ccnr" />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/check_out_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:text="@string/checkout_guest" />
-
-    <Button
-        android:id="@+id/check_out_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/checkout_room" />
-
-</LinearLayout>
+</RelativeLayout>

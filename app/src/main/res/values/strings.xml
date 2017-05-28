@@ -2,7 +2,9 @@
     <string name="app_name">HotelCaesar</string>
     <string name="checkin_guest">Check in guest</string>
     <string name="checkout_guest">Check out guest</string>
-    <string name="checkin_resnr">Using res. nr</string>
-    <string name="checkin_ccnr">Using CC. nr</string>
-    <string name="checkout_room">Using room number</string>
+    <string name="show_all_guests">Show all guests</string>
+    <string name="world_map">Hello World (map)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
